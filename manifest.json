@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Clean",
+  "version": "3.0",
+  "description": "--",
+  "icons": {
+    "48": "icons/unf-48.png",
+    "96": "icons/unf-96.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/unf-32.png",
+    "default_title": "Civil"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "contextMenus",
+    "https://api.npoint.io/*"
+  ]
+}
